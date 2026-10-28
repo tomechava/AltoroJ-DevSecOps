@@ -1,0 +1,9 @@
+# Modo informativo: reporta hallazgos sin romper el build y sin exportar CSV
+language: ES
+strict: false
+output:
+  file_path: sast-results.sarif
+  format: SARIF
+sast:
+  include:
+    - .
