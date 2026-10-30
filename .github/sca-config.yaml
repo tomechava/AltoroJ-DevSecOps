@@ -1,6 +1,6 @@
 
 language: ES
-strict: true
+strictness_threshold: high
 output:
   file_path: sca-results.csv
   format: CSV
